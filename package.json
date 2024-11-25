@@ -1,0 +1,13 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "convert": "node convertImages.js"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.1",
+    "image-to-base64": "^2.2.0"
+  }
+}
